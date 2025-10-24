@@ -77,7 +77,7 @@
                     </thead>
                     <tbody>
                         <?php
-                        var_dump($_GET);
+                        //var_dump($_GET);
                         if (isset($_GET["parcheggio"])  || isset($_GET["voto"])) {
 
                             foreach ($hotels as $hotel) {
